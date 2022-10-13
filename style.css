@@ -134,3 +134,49 @@ body{
     padding-top: 10px;
     font-size: 0.85em;
 }
+.fourpic-bg{
+    background-color:#1F2937;
+    margin-top:18em;
+}
+.fourpic-content{
+    padding-top:1em;
+}
+.fourpic-header{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 1em 1em 1.5em 1em;
+    font-weight: bold;
+}
+.fourpic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    flex-wrap: wrap;
+}
+
+.fourpic-one, .fourpic-two, .fourpic-three, .fourpic-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.mond-img, .liyue-img, .inazuma-img, .sumeru-img{
+    width: 8em;
+    height: 10em;
+    object-fit: cover;
+    border: 0.3em solid white;
+    border-radius: 1.5em;
+    box-shadow: 0 10px 20px white;
+    margin: -0.5em -1em -1em -1em;
+}
+
+.mondstadt-sub, .liyue-sub, .inazuma-sub, .sumeru-sub{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin: 1em 0 1em 0;
+    z-index: 2;
+}
