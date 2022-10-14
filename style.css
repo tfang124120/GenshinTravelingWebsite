@@ -208,3 +208,65 @@ body{
     color: #E7E7EB;
     font-weight: bold;
 }
+.signup-bg{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+}
+.signup-content{
+    background: #303f53;
+    width: 60em;
+    padding: 2em 0;
+    border-radius: 0.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 2em;
+}
+.signup-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0 2em 0 2em;
+    line-height: 1;
+}
+.signup-header{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.signup-subtext{
+    margin-top: 5.5px;
+}
+.signup-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 3em;
+}
+.signup-button{
+    color: white;
+    border: 0.15em solid white;
+    border-radius: 0.3em;
+    background: #516f9c;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-bg{
+    background: #303f53;
+    padding: 1.25em 0;
+    box-shadow: 0 0 1em rgb(0,0,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-credits{
+    color: white;
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: 0.25em;
+}
